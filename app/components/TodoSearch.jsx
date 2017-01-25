@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Search = React.createClass({
+var TodoSearch = React.createClass({
   handleSearch: function () {
     var searchText = this.refs.searchText.value;
     var showCompleted = this.refs.showCompleted.checked;
@@ -25,4 +25,4 @@ var Search = React.createClass({
   }
 });
 
-module.exports = Search;
+module.exports = TodoSearch;
